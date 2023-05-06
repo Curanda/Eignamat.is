@@ -1,0 +1,184 @@
+body {
+    padding-top: 5rem;
+    background-image: url("./images/body-background.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text-center {
+    text-align: center;
+}
+.nav0 {
+    background-image: url(/images/foo2.png);
+    background-size: cover;
+}
+
+.navbar-toggler {
+    border: 2px solid #d1d1d1 !important;
+    border-radius: 4px !important;
+}
+
+.nav-company-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 3rem;
+    display: inline-block;
+    margin: 0;
+}
+
+.nav-logo-house {
+    margin-left: 3rem;
+}
+
+.nav-link-heim {
+    color: #a2a1a1;
+}
+.nav-link-skodun {
+    color: #d1d1d1;
+}
+.nav-link-hita {
+    color: #b39106;
+}
+.nav-link-door {
+    color: red;
+}
+.nav-link-um {
+    color: #a2a1a1;
+}
+.nav-link-hafa {
+    color: white;
+}
+.hero-img {
+    width: 100vw;
+}
+.accordions-section {
+    padding: 2rem 2rem 0 2rem;
+}
+
+.hafa-samband {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 2rem 2rem !important;
+    border-radius: 0.5rem;
+    background-color: rgba(var(--bs-secondary-bg-rgb), 0.5);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer0 {
+    background-image: url(/images/foo2.png);
+    background-size: cover;
+}
+
+.footer1 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10rem;
+    grid-auto-rows: max(11rem);
+    /*background-image: url(/images/foo2.png);*/
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.footer1-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer1-list1 {
+    line-height: 2.2rem;
+}
+
+.footer-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 1em;
+    display: inline-block;
+    margin: 0;
+    line-height: 1;
+}
+
+.footer2 {
+    display: flex;
+    /*background: #2C3036;*/
+    justify-content: center;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+@media screen and (width > 1751px) {
+    .hero-img {
+        width: 67vw;
+    }
+    .heat-camera-img-big {
+        width: 50vw;
+    }
+}
+@media screen and (min-width: 1450px) and (max-width: 1750px) {
+    .hero-img {
+        width: 80vw;
+    }
+    .heat-camera-img-big {
+        width: 50vw;
+    }
+}
+@media screen and (min-width: 1001px) and (max-width: 1450px) {
+    .hero-img {
+        width: 85vw;
+    }
+    .heat-camera-img-big {
+        width: 60vw;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .hero-img {
+        width: 100vw;
+    }
+    .heat-camera-img-big {
+        width: 65vw;
+    }
+}
+@media screen and (width < 991px) {
+    .card-hita {
+        width: 5rem;
+    }
+}
+
+@media screen and (width > 991px) {
+    .container-smaller {
+        width: 68%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav-company-name {
+        padding-left: 1rem;
+        /*padding-right: -3rem;*/
+    }
+    .nav-logo-house {
+        margin-left: 0rem;
+    }
+    .hamburger-button {
+        transform: translateX(-3rem);
+    }
+    .hamburger-menu {
+        transform: translateX(-3rem);
+    }
+}
+
+
+
+
+
+
+
+
+
